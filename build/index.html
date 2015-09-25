@@ -31,9 +31,9 @@
 	<div id="field-wrapper">
 	<label for="Portfolio_Address">Portfolio Address</label>
 	<div id="first_input">
-	<input type="text" id="Portfolio Address" name="Portfolio Address">
+	<input type="text" id="Portfolio_Address" name="Portfolio Address">
 	<div id="second input">
-	<label for="subdomain_address">
+	<label for="Portfolio_Address">
 	.sample.com
 	</label>
 	</div>
@@ -48,9 +48,10 @@
 
 	<label for="Email">Email</label>
 	<input type="email" id="Email" name="Email">
+	<label for="Email"> NOTE: We'll never share your email, promise.</label>
 
 	<label for="Password">Password</label>
-	<input type="password" id="Password" name:"Password">
+	<input type="password" id="Password" name="Password">
 </fieldset>
 
 <fieldset>
@@ -61,10 +62,12 @@
 	<label for="Security_Code">Security Code</label>
 	<input type="text" id="Security_Code" name="Security Code">
 
-	<label for="Expiration_Date">
-
+	
+<fieldset>
+<legend>Expiration Date</legend>
+	<label for="Month">
 	<select name="Month" id="Month">
-	<option value="Month" selected>Month</option>
+	<option value="Month" selected disabled>Month</option>
 	<option value="January">1-January</option>
 	<option value="February">2-February</option>
 	<option value="March">3-March</option>
@@ -82,12 +85,13 @@
 
 	<label for="Year">
 	<select name="Year" id="Year">
-	<option value="Year" selected>Year</option>
+	<option value="Year" selected disabled>Year</option>
 	<option value="2015">2015</option>
 	<option value="Whenever yours expires">Whenever yours expires</option>
 	</select>
 	</label>
 
+</fieldset>
 </fieldset>
 
  <input type="submit" name="submit" value="Create your portfolio">
