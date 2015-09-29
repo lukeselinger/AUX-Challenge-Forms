@@ -1,1 +1,8 @@
 /* Your CSS goes here */
+#background{background-color: #b2e2ff;}
+#header{background-color: #125f77;
+  background-image:
+    linear-gradient(
+      #125f77, #167793
+    );
+}
