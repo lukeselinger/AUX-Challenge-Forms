@@ -6,7 +6,7 @@
   <link rel="dns-prefetch" href="//ajax.googleapis.com">
   <link rel="dns-prefetch" href="//fonts.googleapis.com">
   <link rel="stylesheet" type="text/css" media="screen" href="assets/css/styles.css">
-
+<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,700italic,700,600,400%7CMerriweather:400italic,400,700,700italic">
   <meta charset="UTF-8">
   <meta http-equiv="cleartype" content="on">
 
@@ -15,6 +15,7 @@
 
 <div id="background">
 
+<div id="container">
 <div id="header">
 <h1>Sign Up for Whoo!</h1>
 <p>50 projects, 500 images, 10 videos, domain binding, and technical support</p>
@@ -24,48 +25,65 @@
 <form>
 
 <fieldset>
-	<legend>First, name your portfolio</legend>
+	<legend class="legend">First, name your portfolio</legend>
+
+	<ul>
+	<li>
 	<label for="Portfolio_Name">Portfolio Name</label>
-	<input type="text" id="Portfolio_Name" name="Portfolio Name" placeholder="The INTERPOL Hustle" aria-required="true" required>
+	<input type="text" id="Portfolio_Name" name="Portfolio Name" class="field" placeholder="The INTERPOL Hustle" aria-required="true" required>
+	</li>
 
-
+	<li>
 	<div id="field-wrapper">
 	<label for="Portfolio_Address">Portfolio Address </label>
 	<div id="first_input">
-	<input type="text" id="Portfolio_Address" name="Portfolio Address" aria-required="true" required>
-	<div id="second input">
+	<input type="text" id="Portfolio_Address" name="Portfolio Address" class="field" aria-required="true" required>
+	<div id="second_input">
 	<label for="Portfolio_Address">
 	.sample.com
 	</label>
 	</div>
 	</div>
 	</div>
+	</li>
+	</ul>
 </fieldset>
 
 <fieldset>
-	<legend>Now, enter your account details</legend>
+	<legend class="legend">Now, enter your account details</legend>
+	<ul>
+	<li>
 	<label for="Name">Name</label>
-	<input type="text" id="Name" name="Name" aria-required="true" required>
+	<input type="text" id="Name" name="Name" class="field" aria-required="true" required>
+	</li>
 
+	<li>
 	<label for="Email">Email</label>
-	<input type="email" id="Email" name="Email" aria-required="true" required>
-	<label for="Email"> NOTE: We'll never share your email, promise.</label>
-
+	<input type="email" id="Email" name="Email" class="field" aria-required="true" required>
+	<label for="Email" class="note"> NOTE: We'll never share your email, promise.</label>
+	</li>
+	<li>
 	<label for="Password">Password</label>
-	<input type="password" id="Password" name="Password">
+	<input type="password" id="Password" name="Password" class="field">
+	</li>
+	</ul>
 </fieldset>
 
 <fieldset>
-	<legend>Finally, enter your payment information</legend>
+	<legend class="legend">Finally, enter your payment information</legend>
+	<ul>
+	<li>
 	<label for="Card_Number">Card Number</label>
-	<input type="text" id="Card_Number" name="Card Number" aria-required="true" required>
-
+	<input type="text" id="Card_Number" name="Card Number" class="field" aria-required="true" required>
+	</li>
+	
+	<li>
 	<label for="Security_Code">Security Code</label>
-	<input type="text" id="Security_Code" name="Security Code" aria-required="true" required>
-
+	<input type="text" id="Security_Code" name="Security Code" class="field" aria-required="true" required>
+	</li>
 	
 <fieldset>
-<legend>Expiration Date</legend>
+<legend class="legend">Expiration Date</legend>
 	<label for="Month">
 	<select name="Month" id="Month">
 	<option value="Month" selected disabled>Month</option>
@@ -95,9 +113,11 @@
 </fieldset>
 </fieldset>
 
- <input type="submit" name="submit" value="Create your portfolio">
+ <input type="submit" name="submit" class="button" value="Create your portfolio">
 
 </form>
+</div>
+</div>
 </div>
 </body>
 </html>
