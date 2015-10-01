@@ -1,7 +1,15 @@
 /* Your CSS goes here */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
 #background{
 	background-color: #b2e2ff;
-	position: fixed;
+	position: absolute;
+	padding: 2% 0% 5% 0%;
 	top: 0;
 	left: 0;
 	min-width: 100%;
@@ -68,9 +76,57 @@ ul{
     border-radius:10px;
 }
 
+.expiration-date fieldset{
+	background-color: #f3f5f5;
+  	margin: 0;
+  	padding: 0;
+}
+
+.expiration-date legend{
+  	font-family: Open Sans;
+	font-size: .75em;
+	color: #444444;
+}
+
+
+
+.field-wrapper{
+	margin: 0;
+	clear: both;
+	position: relative;
+}
+
+.field-wrapper input{
+	width:60%;
+	display: inline-block;
+	position: relative;
+}
+
+.domain-add-on{
+	width: 30%;
+	display: inline-block;
+	position: absolute;
+	text-align: center;
+	background-color: #fafafa;
+}
+
+.domain-add-on label{
+	color:#888;
+}
+
 .button{ 
 	background: linear-gradient(to bottom, #90a933 0%,#7d9b32 90%,#7d9b32 100%);
 	margin: 0 auto;
+	display: block;
+	padding: 10px 20px;
+	-moz-border-radius:4px;
+    -webkit-border-radius:4px;	
+    border-radius:4px;
+    font-family: Merriweather;
+    font-weight: 400;
+    font-size: .9em;
+    border: none;
+    color: #fff;
 	}
 
 .field{ 
@@ -85,5 +141,6 @@ ul{
 	color: #0a5e78;
 	font-family: Merriweather;
 	font-weight: 500;
+	font-size: 1em;
 	text-align: left;
 }
