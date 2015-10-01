@@ -39,7 +39,7 @@ html {
 	padding-bottom: 5%;}
 
 #container{
-	width: 50%;
+	width: 45%;
 	margin: 0 auto;
 	padding-bottom: 5%;
 	position: center;
@@ -55,7 +55,7 @@ html {
 
 fieldset{ 
 	background-color: #fff;
-	width: 80%;
+	width: 90%;
 	margin: 2.5em auto;
 	position: center;
 	border: none;
@@ -74,6 +74,10 @@ ul{
   	-moz-border-radius:10px;
     -webkit-border-radius:10px;	
     border-radius:10px;
+}
+
+li{
+	margin-bottom: 15px;
 }
 
 .expiration-date fieldset{
@@ -103,15 +107,30 @@ ul{
 }
 
 .domain-add-on{
-	width: 30%;
+	width: 35%;
 	display: inline-block;
 	position: absolute;
 	text-align: center;
 	background-color: #fafafa;
+	border-radius: 0px 4px 4px 0px;
+	-moz-border-radius: 0px 4px 4px 0px;
+	-webkit-border-radius: 0px 4px 4px 0px;
+	border: 0px;
+	padding: 9px;
+	-webkit-box-shadow: inset 0px 1px 2px 0px rgba(191,191,191,1);
+	-moz-box-shadow: inset 0px 1px 2px 0px rgba(191,191,191,1);
+	box-shadow: inset 0px 1px 2px 0px rgba(191,191,191,1)
 }
 
 .domain-add-on label{
 	color:#888;
+}
+
+.domain-input input{
+	border-radius: 4px 0px 0px 4px;
+	-moz-border-radius: 4px 0px 0px 4px;
+	-webkit-border-radius: 4px 0px 0px 4px;
+	border: 0px;
 }
 
 .button{ 
@@ -130,8 +149,16 @@ ul{
 	}
 
 .field{ 
+	width:95%;
+	border-radius: 4px;
+	padding:10px;
 	display: block;
-	font-family: Open Sans}
+	font-family: Open Sans;
+	border: 0;
+	-webkit-box-shadow: inset 0px 1px 2px 0px rgba(191,191,191,1);
+	-moz-box-shadow: inset 0px 1px 2px 0px rgba(191,191,191,1);
+	box-shadow: inset 0px 1px 2px 0px rgba(191,191,191,1);
+	}
 
 .note{
 	font-size: .5em;
