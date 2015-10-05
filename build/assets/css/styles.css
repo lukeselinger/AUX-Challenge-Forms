@@ -56,6 +56,29 @@ html {
 	background-color: #fff;
 	background-position: center;}
 
+form{
+	counter-reset: section;
+}
+
+section{
+	counter-increment: section;
+}
+
+section:before{
+  content: counter(section);
+  float: left;
+  margin: -15px -1.5em;
+  font-family: Merriweather;
+  font-size: 1em;
+  display: inline-block;
+  font-weight: 600;
+  color: #fff;
+  background-color: #52a3d4;
+  border-radius: 25px;
+  padding: 10px 15px;
+  border: solid #fff 5px;
+}
+
 fieldset{ 
 	background-color: #fff;
 	width: 90%;
@@ -173,4 +196,15 @@ li{
 	font-weight: 500;
 	font-size: 1em;
 	text-align: left;
+}
+
+select{
+	background: linear-gradient(to bottom, #ffffff 0%,#eaeeee 40%,#eaeeee 40%,#eaeeee 100%);
+	font-family: Open Sans;
+	font-size: .75em;
+	color: #444444;
+	padding: 10px;
+	margin: 1em .25em;
+	border: 1px solid #fff;
+	box-shadow: 0px 0px 1px 1px rgba(208,210,210,.7);
 }
