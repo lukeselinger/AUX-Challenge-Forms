@@ -198,6 +198,127 @@ li{
 	text-align: left;
 }
 
+.cc, .code{
+	display: inline-block;
+}
+
+.cc-number{
+	width:44%;
+	margin:0;
+	display: inline-block;
+}
+
+.codeNumber{
+	width:30%;
+	margin:0;
+	display: inline-block;
+}
+
+.cc label, .code label{
+	display: inline-block;
+}
+
+input[type="radio"]{
+	border: 0; 
+  	clip: rect(0 0 0 0); 
+  	height: 1px; margin: -1px; 
+  	overflow: hidden; 
+  	padding: 0; 
+  	position: absolute; 
+  	width: 1px;
+}
+
+input#amex:checked + label{
+	background: url('../images/sprite.png') no-repeat 0px 0px;
+	height:30px;
+	width:45px;
+	text-indent: -9999px;
+}
+
+input#amex:not(:checked) + label{
+	background: url('../images/sprite.png') no-repeat -1px -40px;
+	height:32px;
+	width:45px;
+	text-indent: -9999px;
+}
+
+input#amex:not(:checked) + label:hover{
+	background: url('../images/sprite.png') no-repeat 0px 0px;
+	height:30px;
+	width:45px;
+	text-indent: -9999px;
+}
+
+input#visa:checked + label{
+	background: url('../images/sprite.png') no-repeat -48px 0px;
+	height:30px;
+	width:45px;
+	text-indent: -9999px;
+}
+
+input#visa:not(:checked) + label{
+	background: url('../images/sprite.png') no-repeat -48px -40px;
+	height:32px;
+	width:45px;
+	text-indent: -9999px;
+}
+
+input#visa:not(:checked) + label:hover{
+	background: url('../images/sprite.png') no-repeat -48px 0px;
+	height:30px;
+	width:45px;
+	text-indent: -9999px;
+}
+
+input#discover:checked + label{
+	background: url('../images/sprite.png') no-repeat -96px 0px;
+	height:30px;
+	width:45px;
+	text-indent: -9999px;
+}
+
+input#discover:not(:checked) + label{
+	background: url('../images/sprite.png') no-repeat -96px -40px;
+	height:32px;
+	width:45px;
+	text-indent: -9999px;
+}
+
+input#discover:not(:checked) + label:hover{
+	background: url('../images/sprite.png') no-repeat -96px 0px;
+	height:30px;
+	width:45px;
+	text-indent: -9999px;
+}
+
+input#mc:checked + label{
+	background: url('../images/sprite.png') no-repeat -144px 0px;
+	height:30px;
+	width:45px;
+	text-indent: -9999px;
+}
+
+input#mc:not(:checked) + label{
+	background: url('../images/sprite.png') no-repeat -144px -40px;
+	height:32px;
+	width:45px;
+	text-indent: -9999px;
+}
+
+input#mc:not(:checked) + label:hover{
+	background: url('../images/sprite.png') no-repeat -144px 0px;
+	height:30px;
+	width:45px;
+	text-indent: -9999px;
+}
+
+input#csv:not(:checked) + label{
+	background: url('../images/sprite.png') no-repeat 0px -124px;
+	height:32px;
+	width:62px;
+	text-indent: -9999px;
+}
+
 select{
 	background: linear-gradient(to bottom, #ffffff 0%,#eaeeee 40%,#eaeeee 40%,#eaeeee 100%);
 	font-family: Open Sans;
@@ -207,19 +328,4 @@ select{
 	margin: 1em .25em;
 	border: 1px solid #fff;
 	box-shadow: 0px 0px 1px 1px rgba(208,210,210,.7);
-}
-
-.cc{
-	display: inline-block;
-}
-
-.cc label{
-	position: absolute;
-	left: 9999px;
-}
-
-.cc input#amex{
-	background: url('../images.sprite.png');
-	background-repeat: no-repeat;
-	background-position: 45px 30px;
 }
