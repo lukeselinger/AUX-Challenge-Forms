@@ -106,14 +106,6 @@ li{
 	margin-bottom: 15px;
 }
 
-/*input:invalid{
-	background: url('../images/sprite.png') no-repeat -1px -167px;
-}*/
-
-input:focus:invalid{
-	outline:none;
-}
-
 .expiration-date fieldset{
 	background-color: #f3f5f5;
   	margin: 0;
@@ -220,8 +212,17 @@ input:focus:invalid{
 	box-shadow: inset 0px 1px 2px 0px rgba(191,191,191,1);
 	}
 
-.field:focus:invalid{
-	background:#fff url('../images/sprite.png') no-repeat 311px -158px;
+:required:focus:invalid{
+	background:#fff url('../images/v_sprite.png') no-repeat 311px -23px;
+}
+
+:required:focus:valid{
+	background:#fff url('../images/v_sprite.png') no-repeat 311px 7px;
+	display:inline-block;
+}
+
+:required:valid{
+	background:#fff url('../images/v_sprite.png') no-repeat 311px 7px;
 	display:inline-block;
 }
 
