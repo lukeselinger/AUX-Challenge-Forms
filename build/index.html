@@ -78,17 +78,17 @@
 	<legend class="legend">Finally, enter your payment information</legend>
 	<ul>
 	<li class="cc-number">
-	<label for="Card_number">Card Number</label>
+	<label for="cardNumber">Card Number</label>
 	<input type="text" id="Card_Number" name="Card Number" class="field" aria-required="true" required>
 	</li>
 	<li class="cc">
-	<input type="radio" id="amex" name="American Express" value="American Express" aria-required="true" required>
+	<input type="radio" id="amex" name="creditCard" value="amex" aria-required="true" required>
 	<label for="amex">Amex</label>
-	<input type="radio" id="visa" name="Visa" value="Visa" aria-required="true" required>
+	<input type="radio" id="visa" name="creditCard" value="visa" aria-required="true" required>
 	<label for="visa">Visa</label>
-	<input type="radio" id="discover" name="Discover" value="Discover" aria-required="true" required>
+	<input type="radio" id="discover" name="creditCard" value="discover" aria-required="true" required>
 	<label for="discover">Discover</label>
-	<input type="radio" id="mc" name="Mastercard" value="MasterCard" aria-required="true" required>
+	<input type="radio" id="mc" name="creditCard" value="masterCard" aria-required="true" required>
 	<label for="mc">Mastercard</label>
 	</li>
 
@@ -147,5 +147,11 @@
 </div>
 </div>
 </div>
+<script src="assets/js/vendor/jquery.min.js" type="text/javascript"></script>
+<script src="assets/js/vendor/jquery.validate.min.js" type="text/javascript"></script>
+<script src="assets/js/vendor/jquery.creditCardValidator.js" type="text/javascript"></script>
+<script src="assets/js/vendor/modernizr.min.js" type="text/javascript"></script>
+<script src="assets/js/script.js" type="text/javascript"></script>
 </body>
+
 </html>

@@ -195,7 +195,7 @@ li{
 	-webkit-box-shadow: 0px 1px 1px 1px rgba(189,189,189,1);
 	-moz-box-shadow: 0px 1px 1px 1px rgba(189,189,189,1);
 	box-shadow: 0px 1px 1px 1px rgba(189,189,189,1);
-     webkit-transition: all 0.3s;
+    webkit-transition: all 0.3s;
     moz-transition: all 0.3s;
     transition: all 0.3s;
 	}
@@ -210,20 +210,30 @@ li{
 	-webkit-box-shadow: inset 0px 1px 2px 0px rgba(191,191,191,1);
 	-moz-box-shadow: inset 0px 1px 2px 0px rgba(191,191,191,1);
 	box-shadow: inset 0px 1px 2px 0px rgba(191,191,191,1);
+	background:#fff url('../images/v_sprite.png') no-repeat 311px -50px;
 	}
 
 :required:focus:invalid{
 	background:#fff url('../images/v_sprite.png') no-repeat 311px -23px;
+	webkit-transition: all 0.3s ease 0s;
+    moz-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
 }
 
 :required:focus:valid{
 	background:#fff url('../images/v_sprite.png') no-repeat 311px 7px;
 	display:inline-block;
+	webkit-transition: all 0.3s ease 0s;
+    moz-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
 }
 
 :required:valid{
 	background:#fff url('../images/v_sprite.png') no-repeat 311px 7px;
 	display:inline-block;
+	webkit-transition: all 0.3s ease 0s;
+    moz-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
 }
 
 .note{
