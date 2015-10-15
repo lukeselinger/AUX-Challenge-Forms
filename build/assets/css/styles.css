@@ -354,39 +354,37 @@ input#discover:not(:checked) + label:hover{
 	text-indent: -9999px;
 }
 
-input#mc:checked + label{
+input#mastercard:checked + label{
 	background: url('../images/sprite.png') no-repeat -144px 0px;
 	height:30px;
 	width:45px;
 	text-indent: -9999px;
 }
 
-input#mc:not(:checked) + label{
+input#mastercard:not(:checked) + label{
 	background: url('../images/sprite.png') no-repeat -144px -40px;
 	height:32px;
 	width:45px;
 	text-indent: -9999px;
 }
 
-input#mc:not(:checked) + label:hover{
+input#mastercard:not(:checked) + label:hover{
 	background: url('../images/sprite.png') no-repeat -144px 0px;
 	height:30px;
 	width:45px;
 	text-indent: -9999px;
 }
 
-input#csv:not(:checked) + label{
+.csv-sprite{
 	background: url('../images/sprite.png') no-repeat 0px -124px;
-	height:32px;
-	width:62px;
-	text-indent: -9999px;
-}
-
-input#csv:checked + label{
-	background: url('../images/sprite.png') no-repeat 0px -82px;
 	height:32px;
 	width:71px;
 	text-indent: -9999px;
+	display: block;
+}
+
+.csv-sprite.amex{
+	background: url('../images/sprite.png') no-repeat 0px -82px;
 }
 
 select{
