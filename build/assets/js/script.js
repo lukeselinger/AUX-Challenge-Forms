@@ -8,7 +8,6 @@ $('#Card_Number').validateCreditCard(function(result){
 			showAmex();}
 
 		});
-    
 
 function showAmex(){
 	var security = $('.csv-sprite');
@@ -17,3 +16,18 @@ function showAmex(){
 	} else{security.removeClass('amex');
 }
 }
+
+
+Modernizr.load({
+	test: Modernizr.input.required,
+	nope: {
+		'validateFallback': 'assets/js/vendor/jquery.validate.min.js'
+	},
+
+callback: {
+	'validateFallback': function(url, result, key){
+		$('#whoo').validate();
+	}
+}
+
+	})

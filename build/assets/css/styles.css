@@ -1,9 +1,9 @@
 /* Your CSS goes here */
 html {
-  box-sizing: border-box;
+	box-sizing: border-box;
 }
 *, *:before, *:after {
-  box-sizing: inherit;
+	box-sizing: inherit;
 }
 
 body{
@@ -25,9 +25,9 @@ body{
 	font-family: Merriweather;
 	background-position: center;
 	background-color: #f3f5f5;
- 	-moz-border-radius:5px 5px 0px 0px;
-    -webkit-border-radius:5px 5px 0px 0px;	
-    border-radius:5px 5px 0px 0px;
+	-moz-border-radius:5px 5px 0px 0px;
+	-webkit-border-radius:5px 5px 0px 0px;	
+	border-radius:5px 5px 0px 0px;
 }
 
 .header h1{
@@ -53,10 +53,10 @@ body{
 	max-width: 650px;
 	min-width: 650px;
 	background-color: #fff;
- 	-moz-border-radius:5px;
-    -webkit-border-radius:5px;	
-    border-radius:5px;
-}
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;	
+	border-radius:5px;
+	}
 
 .fieldsets-background{ 
 	background-color: #fff;
@@ -71,19 +71,19 @@ section{
 }
 
 section:before{
-  content: counter(section);
-  float: left;
-  margin: -11px -1.25em;
-  font-family: Merriweather;
-  font-size: 1em;
-  display: inline-block;
-  font-weight: 500;
-  color: #fff;
-  background-color: #52a3d4;
-  border-radius: 25px;
-  padding: 5px 12px;
-  border: solid #fff 6px;
-}
+	content: counter(section);
+	float: left;
+	margin: -11px -1.25em;
+	font-family: Merriweather;
+	font-size: 1em;
+	display: inline-block;
+	font-weight: 500;
+	color: #fff;
+	background-color: #52a3d4;
+	border-radius: 25px;
+	padding: 5px 12px;
+	border: solid #fff 6px;
+	}
 
 fieldset{ 
 	background-color: #fff;
@@ -91,23 +91,22 @@ fieldset{
 	margin: 2.5em auto;
 	position: center;
 	border: none;
- 	}
+	}
 
 label{
 	font-family: Open Sans;
 	font-size: .75em;
 	color: #444444;
-	padding-left: 12px;
 }
 
 ul{
 	background-color: #f3f5f5;
-  	list-style: none;
-  	padding: 5% 6%;
-  	margin-top: initial;
-  	-moz-border-radius:5px;
-    -webkit-border-radius:5px;	
-    border-radius:5px;
+	list-style: none;
+	padding: 5% 6%;
+	margin-top: initial;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;	
+	border-radius:5px;
 }
 
 li{
@@ -116,12 +115,12 @@ li{
 
 .expiration-date fieldset{
 	background-color: #f3f5f5;
-  	margin: 0;
-  	padding: 0;
+	margin: 0;
+	padding: 0;
 }
 
 .expiration-date legend{
-  	font-family: Open Sans;
+	font-family: Open Sans;
 	font-size: .75em;
 	color: #444444;
 }
@@ -131,12 +130,11 @@ li{
 .field-wrapper{
 	margin: 0 auto;
 	clear: both;
-	padding-left: 12px;
 	position: relative;
 }
 
 .field-wrapper input{
-	width:60%;
+	width:65%;
 	display: inline-block;
 	position: relative;
 }
@@ -173,45 +171,41 @@ li{
 	background: linear-gradient(to bottom, #90a933 0%,#7d9b32 90%,#7d9b32 100%);
 	margin: -15px auto 10px;
 	display: block;
-	padding: 10px 30px;
-	-moz-border-radius:5px;
-    -webkit-border-radius:5px;	
-    border-radius:5px;
-    font-family: Merriweather;
-    font-weight: 400;
-    font-size: .9em;
-    border: none;
-    color: #fff;
-    cursor:pointer;
-    webkit-transition: all 0.3s;
-    moz-transition: all 0.3s;
-    transition: all 0.3s ease 0s;
+	padding: 10px 32px;
+	-moz-border-radius:7px;
+	-webkit-border-radius:7px;	
+	border-radius:7px;
+	font-family: Merriweather;
+	font-weight: 400;
+	font-size: .9em;
+	border: none;
+	color: #fff;
+	cursor:pointer;
+	webkit-transition: all 0.3s;
+	moz-transition: all 0.3s;
+	transition: all 0.3s ease 0s;
 	}
 
 	.button:hover{ 
 	background: linear-gradient(to bottom, #8bb538 0%,#789b31 50%,#7d9b32 100%,#789b31 100%);
 	margin: -15px auto 10px;
 	display: block;
-	padding: 10px 30px;
-	-moz-border-radius:5px;
-    -webkit-border-radius:5px;	
-    border-radius:5px;
-    font-family: Merriweather;
-    font-weight: 400;
-    font-size: .9em;
-    border: solid 1px #74893D;
-    color: #fff;
-    cursor: pointer;
-	-webkit-box-shadow: 0px 1px 1px 1px rgba(189,189,189,1);
-	-moz-box-shadow: 0px 1px 1px 1px rgba(189,189,189,1);
-	box-shadow: 0px 1px 1px 1px rgba(189,189,189,1);
-    webkit-transition: all 0.3s;
-    moz-transition: all 0.3s;
-    transition: all 0.3s;
+	padding: 10px 32px;
+	-moz-border-radius:7px;
+    -webkit-border-radius:7px;	
+	border-radius:7px;
+	font-family: Merriweather;
+	font-weight: 400;
+	font-size: .9em;
+	color: #fff;
+	cursor: pointer;
+	webkit-transition: all 0.3s;
+	moz-transition: all 0.3s;
+	transition: all 0.3s;
 	}
 
 .field{ 
-	width:95%;
+	width:100%;
 	border-radius: 4px;
 	padding:10px;
 	display: block;
@@ -228,25 +222,25 @@ li{
 :required:focus:invalid{
 	background:#fff url('../images/v_sprite.png') no-repeat right 12px top -23px;
 	webkit-transition: all 0.3s ease 0s;
-    moz-transition: all 0.3s ease 0s;
-    transition: all 0.3s ease 0s;
-    margin: 5px auto 0px;
+	moz-transition: all 0.3s ease 0s;
+	transition: all 0.3s ease 0s;
+	margin: 5px auto 0px;
 }
 
 :required:focus:valid{
 	background:#fff url('../images/v_sprite.png') no-repeat right 12px top 7px;
 	webkit-transition: all 0.3s ease 0s;
-    moz-transition: all 0.3s ease 0s;
-    transition: all 0.3s ease 0s;
-    margin: 5px auto 0px;
-}
+	moz-transition: all 0.3s ease 0s;
+	transition: all 0.3s ease 0s;
+	margin: 5px auto 0px;
+	}
 
 :required:valid{
 	background:#fff url('../images/v_sprite.png') no-repeat right 12px top 7px;
 	webkit-transition: all 0.3s ease 0s;
-    moz-transition: all 0.3s ease 0s;
-    transition: all 0.3s ease 0s;
-    margin: 5px auto 0px;
+	moz-transition: all 0.3s ease 0s;
+	transition: all 0.3s ease 0s;
+	margin: 5px auto 0px;
 }
 
 .note{
@@ -261,8 +255,10 @@ li{
 	text-align: left;
 }
 
-.cc, .code{
+.cc{
 	display: inline-block;
+	vertical-align: top;
+	margin-top: 26px;
 }
 
 .cc-number{
@@ -283,12 +279,12 @@ li{
 
 input[type="radio"]{
 	border: 0; 
-  	clip: rect(0 0 0 0); 
-  	height: 1px; margin: -1px; 
-  	overflow: hidden; 
-  	padding: 0; 
-  	position: absolute; 
-  	width: 1px;
+	clip: rect(0 0 0 0); 
+	height: 1px; margin: -1px; 
+	overflow: hidden; 
+	padding: 0; 
+	position: absolute; 
+	width: 1px;
 }
 
 input#amex:checked + label{
@@ -380,7 +376,10 @@ input#mastercard:not(:checked) + label:hover{
 	height:32px;
 	width:71px;
 	text-indent: -9999px;
-	display: block;
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 155px;
+	margin-top: -34px;
 }
 
 .csv-sprite.amex{
