@@ -24,9 +24,7 @@ body{
 	background: linear-gradient(to bottom, #167793 0%,#125f77 90%,#125f77 100%);
 	font-family: Merriweather;
 	background-position: center;
-	background-color: #f3f5f5;
-	-moz-border-radius:5px 5px 0px 0px;
-	-webkit-border-radius:5px 5px 0px 0px;	
+	background-color: #f3f5f5;	
 	border-radius:5px 5px 0px 0px;
 }
 
@@ -52,9 +50,7 @@ body{
 	position: center;
 	max-width: 650px;
 	min-width: 650px;
-	background-color: #fff;
-	-moz-border-radius:5px;
-	-webkit-border-radius:5px;	
+	background-color: #fff;	
 	border-radius:5px;
 	}
 
@@ -103,9 +99,7 @@ ul{
 	background-color: #f3f5f5;
 	list-style: none;
 	padding: 5% 6%;
-	margin-top: initial;
-	-moz-border-radius:5px;
-	-webkit-border-radius:5px;	
+	margin-top: initial;	
 	border-radius:5px;
 }
 
@@ -151,8 +145,6 @@ li{
 	-webkit-border-radius: 0px 4px 4px 0px;
 	border: 0px;
 	padding: 9px;
-	-webkit-box-shadow: inset 0px 1px 2px 0px rgba(191,191,191,1);
-	-moz-box-shadow: inset 0px 1px 2px 0px rgba(191,191,191,1);
 	box-shadow: inset 0px 1px 2px 0px rgba(191,191,191,1)
 }
 
@@ -171,9 +163,7 @@ li{
 	background: linear-gradient(to bottom, #90a933 0%,#7d9b32 90%,#7d9b32 100%);
 	margin: -15px auto 10px;
 	display: block;
-	padding: 10px 32px;
-	-moz-border-radius:7px;
-	-webkit-border-radius:7px;	
+	padding: 10px 32px;	
 	border-radius:7px;
 	font-family: Merriweather;
 	font-weight: 400;
@@ -190,9 +180,7 @@ li{
 	background: linear-gradient(to bottom, #8bb538 0%,#789b31 50%,#7d9b32 100%,#789b31 100%);
 	margin: -15px auto 10px;
 	display: block;
-	padding: 10px 32px;
-	-moz-border-radius:7px;
-    -webkit-border-radius:7px;	
+	padding: 10px 32px;	
 	border-radius:7px;
 	font-family: Merriweather;
 	font-weight: 400;
@@ -213,8 +201,6 @@ li{
 	font-family: Open Sans;
 	font-size: 13px;
 	border: 0;
-	-webkit-box-shadow: inset 0px 1px 2px 0px rgba(191,191,191,1);
-	-moz-box-shadow: inset 0px 1px 2px 0px rgba(191,191,191,1);
 	box-shadow: inset 0px 1px 2px 0px rgba(191,191,191,1);
 	background:#fff url('../images/v_sprite.png') no-repeat right 12px top -50px;
 	}
